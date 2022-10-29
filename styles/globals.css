@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --duration: 5s;
+  --ease: cubic-bezier(.6, 0, .2, 1);
+}
+
 html,
 body {
+  width: 100vw;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+}
+
+#app-root {
+  width: 100%;
 }
 
 a {
@@ -12,6 +25,7 @@ a {
 }
 
 * {
+  position: relative;
   box-sizing: border-box;
 }
 
