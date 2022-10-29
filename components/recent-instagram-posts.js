@@ -22,7 +22,7 @@ const RecentInstagramPosts = () => {
             transition: '500ms ease-in opacity'
           }}
         >
-          <ArrowForwardIcon h="2em" w="3em" />
+          <ArrowForwardIcon h={{ base: "1em", md: "2em"}} w={{ base: "2em", md: "3em"}} />
         </Button>
       </TruffTitleText>
       <HStack
