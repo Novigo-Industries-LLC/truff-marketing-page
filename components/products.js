@@ -115,6 +115,7 @@ const Products = () => {
       <Flex
         flexDir={{ base: "column", md: "row" }}
         justify={ selectedTab !== 'hot_sauce' ? {...twoItemsContainerJustify} : 'space-between' }
+        alignItems={{ base: "center", md: "unset" }}
         transition="ease-in-out all 500ms"
         w="100%"
       >

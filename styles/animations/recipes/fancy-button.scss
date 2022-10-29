@@ -1,12 +1,27 @@
 
+
+
+@media(min-width: 768px) {
+	.fancy-button {
+		padding: 1em 1.25em;
+	}
+}
+
+
+@media(min-width: 1024px) {
+	.fancy-button {
+		padding: 1.5em 3em;
+	}
+}
+
 .fancy-button {
 	
 	--offset: 10px;
 	--border-size: 2px;
-	
+	padding: 1em 1em;
+	max-width: 80%;
 	display: block;
 	position: relative;
-	padding: 1.5em 3em;
 	appearance: none;
 	border: 0;
 	background: transparent;
